@@ -1,0 +1,13 @@
+net: "./model/entropy/ent_v2.prototxt"
+base_lr: 0.000001
+test_iter: 6468
+# Carry out testing every 500 training iterations.
+test_interval: 20000
+momentum: 0.9
+momentum2: 0.999
+lr_policy: "fixed"
+display: 10000
+max_iter: 160000
+snapshot: 20000
+snapshot_prefix: "./model/entropy/history/ent"
+solver_mode: GPU
