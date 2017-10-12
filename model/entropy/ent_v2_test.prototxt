@@ -4,7 +4,7 @@ layer {
   top: "data"
   top: "label"
   data_param {
-	source: "f:/compress/imp_2_lmdb_test"
+	source: "f:/compress/imp_2_map_lmdb_test"
     batch_size: 1024
     rand_skip: 102
     backend: LMDB

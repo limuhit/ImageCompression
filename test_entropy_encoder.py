@@ -96,5 +96,5 @@ def combine_binary_and_map():
             f.write('%.3f\n'%val)
         f.close()
 if __name__ == '__main__':
-    test_per_image(True,False,2)
+    test_per_image(False,False,2)
     #combine_binary_and_map()

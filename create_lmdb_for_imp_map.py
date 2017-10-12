@@ -90,7 +90,7 @@ if __name__ == '__main__':
     caffe.set_device(1)
     caffe.set_mode_gpu()
     train_flag=False
-    model_idx=1
+    model_idx=2
     channel_128=(model_idx>4)
     net=caffe.Net('./model/entropy/extract_entropy_package_for_imp_map.prototxt','./model/cmp/%d.caffemodel'%model_idx,caffe.TEST)
     if train_flag:
