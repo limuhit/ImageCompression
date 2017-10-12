@@ -14,8 +14,13 @@ If you have problem in testing our model, please contact me at "csmuli@comp.poly
 If you the codes, please cite the paper "Learning Convolutional Networks for Content-weighted Image Compression".
 
 @article{li2017learning,
+
   title={Learning Convolutional Networks for Content-weighted Image Compression},
+  
   author={Li, Mu and Zuo, Wangmeng and Gu, Shuhang and Zhao, Debin and Zhang, David},
+  
   journal={arXiv preprint arXiv:1703.10553},
+  
   year={2017}
+  
 }
