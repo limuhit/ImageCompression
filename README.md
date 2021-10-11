@@ -9,7 +9,7 @@ The file "test_imp.py" is used to test different models with different compressi
 
 The compression ratio of our model can be calculated in two parts. One part for the importance map, another for the binary codes. The file "create_lmdb_for binary_codes.py" is used to extract the context for each binary codes and put the context cubic into a lmdb database for further calculate the hit or miss possibility in the arithmetic coding. The database should be created for each model before testing the compression ratio.  The file "create_lmdb_for_imp_map.py" is used to prepare the data for calculating the ratio of the binary codes. After preparing the data, we can run the file "test_entropy_encoder.py" to calculate the compression ratio of the binary codes and the importance map. Finally, by adding the importance map ratio and the binary codes ratio, we can get the final ratio of our model.
 
-If you have problem in testing our model, please contact me at "csmuli@comp.polyu.edu.hk".
+If you have problem in testing our model, please contact me at "limuhit@gmail.com".
 
 If you the codes, please cite the paper "Learning Convolutional Networks for Content-weighted Image Compression".
 
