@@ -16,14 +16,17 @@ If you have problem in testing our model, please contact me at "limuhit@gmail.co
 
 If you the codes, please cite the paper "Learning Convolutional Networks for Content-weighted Image Compression".
 
-@article{li2017learning,
+
+@inproceedings{li2018learning,
 
   title={Learning Convolutional Networks for Content-weighted Image Compression},
   
   author={Li, Mu and Zuo, Wangmeng and Gu, Shuhang and Zhao, Debin and Zhang, David},
   
-  journal={arXiv preprint arXiv:1703.10553},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   
-  year={2017}
+  pages={3214--3223},
+  
+  year={2018}
   
 }
